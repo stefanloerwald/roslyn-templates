@@ -29,7 +29,7 @@ jobs:
       run: |
         dotnet new -i bin/Release/*.nupkg
         column_1_width=$( dotnet new | grep -e "----" | cut -d ' ' -f1 | wc -c )
-        templates=$( dotnet new | grep "blazor-" | cut -c ${column_1_width}- | cut -d ' ' -f7 )
+        templates=$( dotnet new | grep "roslyn-" | cut -c ${column_1_width}- | cut -d ' ' -f7 )
         while IFS= read -r template_name; do
            echo "Testing template ${template_name}"
            mkdir tmp
