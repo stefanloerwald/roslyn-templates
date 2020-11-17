@@ -1,0 +1,9 @@
+﻿{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Roslyn Templates Project, Stefan Lörwald",
+  "classifications": [ "roslyn" ],
+  "identity": "RoslynTemplates.SourceGenerator",
+  "name": "Roslyn source generator template with unit test and integration test",
+  "shortName": "roslyn-sg",
+  "sourceName": "MyTemplate"
+}
