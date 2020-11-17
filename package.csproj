@@ -19,7 +19,7 @@
 	</PropertyGroup>
 	<!--PackageId, Version-->
 	<PropertyGroup>
-		<PackageId>RoslynTemplates</PackageId>
+		<PackageId>Community.RoslynTemplates</PackageId>
 		<PackageVersion>1.0.0</PackageVersion>
 	</PropertyGroup>
 	<!--Self Include-->
