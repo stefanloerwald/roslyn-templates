@@ -1,39 +1,37 @@
 <Project>
-	<PropertyGroup>
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	</PropertyGroup>
-	<!--Title, Description, Tags, Product-->
-	<PropertyGroup>
-		<Title>Roslyn Templates</Title>
-		<Description>A collection of roslyn templates.</Description>
-		<PackageTags>dotnet-new;templates;roslyn</PackageTags>
-		<Product>RoslynTemplates</Product>
-	</PropertyGroup>
-	<!--Author, Company-->
-	<PropertyGroup>
-		<Authors>RoslynTemplates project, Stefan Lörwald</Authors>
-	</PropertyGroup>
-	<!--Repository-->
-	<PropertyGroup>
-		<RepositoryType>git</RepositoryType>
-	</PropertyGroup>
-	<!--PackageId, Version-->
-	<PropertyGroup>
-		<PackageId>Community.RoslynTemplates</PackageId>
-		<PackageVersion>1.0.0</PackageVersion>
-	</PropertyGroup>
-	<!--Self Include-->
-	<ItemGroup>
-		<None Include="package.csproj" />
-	</ItemGroup>
-	<!--Licensing-->
-	<PropertyGroup>
-		<PackageLicenseFile>LICENSE</PackageLicenseFile>
-	</PropertyGroup>
-	<ItemGroup>
-		<None Include="LICENSE">
-			<Pack>True</Pack>
-			<PackagePath></PackagePath>
-		</None>
-	</ItemGroup>
+  <!--Title, Description, Tags, Product-->
+  <PropertyGroup>
+    <Title>Roslyn Templates</Title>
+    <Description>A collection of roslyn templates.</Description>
+    <PackageTags>dotnet-new;templates;roslyn</PackageTags>
+    <Product>RoslynTemplates</Product>
+  </PropertyGroup>
+  <!--Author, Company-->
+  <PropertyGroup>
+    <Authors>RoslynTemplates project, Stefan Lörwald</Authors>
+  </PropertyGroup>
+  <!--Repository-->
+  <PropertyGroup>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+  <!--PackageId, Version-->
+  <PropertyGroup>
+    <PackageId>Community.RoslynTemplates</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+  </PropertyGroup>
+  <!--Self Include-->
+  <ItemGroup>
+    <None Include="package.csproj" />
+  </ItemGroup>
+  <!--Licensing-->
+  <PropertyGroup>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>
+      </PackagePath>
+    </None>
+  </ItemGroup>
 </Project>

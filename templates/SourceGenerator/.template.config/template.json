@@ -5,5 +5,9 @@
   "identity": "RoslynTemplates.SourceGenerator",
   "name": "Roslyn source generator template with unit test and integration test",
   "shortName": "roslyn-sg",
-  "sourceName": "MyTemplate"
+  "sourceName": "MyTemplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
 }
