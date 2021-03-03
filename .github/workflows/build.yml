@@ -31,10 +31,7 @@ jobs:
       run: |
         dotnet new -i app/packed/*.nupkg
         column_1_width=$( dotnet new | grep -e "----" | cut -d ' ' -f1 | wc -c )
-        echo "Trim ${column_1_width} characters from start"
-        dotnet new  | cut -c ${column_1_width}- | grep "roslyn-"
-        templates=$( dotnet new | cut -c ${column_1_width}- | grep "roslyn-" | cut -d ' ' -f7 )
-        echo "Templates are: ${templates}"
+        templates=$( dotnet new | cut -c ${column_1_width}- | grep "roslyn-"  | sed 's/^[ ]*//' | cut -d ' ' -f1 )
         while IFS= read -r template_name; do
            echo "Testing template ${template_name}"
            mkdir tmp
