@@ -1,7 +1,7 @@
 name: Build & deploy templates
 
 env:
-  dotnet_version: 5.0.200
+  dotnet_version: 5.0.301
   target_framework: netstandard2.0
 
 on:
